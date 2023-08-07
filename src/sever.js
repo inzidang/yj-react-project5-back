@@ -13,7 +13,7 @@ const app = express();
 const corsOptions = {
     origin: [
         "http://localhost:3000",
-    "https://aesthetic-bavarois-68e6d6.netlify.app/",
+    "https://aesthetic-bavarois-68e6d6.netlify.app",
     ],
     methods: ["GET", "POST"],
     credentials: true,
